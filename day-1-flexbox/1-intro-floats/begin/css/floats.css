@@ -30,11 +30,46 @@ div img {
 	max-width: 225px; 
 }
 
+.row {
+	display: table;
+}
+
+.col-3 {
+	float: left;
+	width: 50%;
+	background-color: pink;
+}
+
+.col-9 {
+	float: left;
+	width: 75%;
+	background-color: yellow;
+}
+
+.col-12 {
+	float: left;
+	width: 100%;
+	background-color: violet;
+}
+
+.col-6 {
+	float: left;
+	width: 50%;
+	background-color: aqua;
+}
+
+ 
+
 /* grid system -- mobile first! */
 
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
+	.col-3 {
+		float: left;
+		width: 25%;
+		background-color: pink;
+	}
 
 }
 /* Desktop screen Sizes */
